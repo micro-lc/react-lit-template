@@ -1,0 +1,14 @@
+{
+  "name": "micro-lc-react-lit-template",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "react": "yarn workspace react",
+    "lit": "yarn workspace lit"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
