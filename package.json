@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "react": "yarn workspace react-components",
-    "lit": "yarn workspace lit-web-components"
+    "react": "yarn workspace @micro-lc/react",
+    "lit": "yarn workspace @micro-lc/lit"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

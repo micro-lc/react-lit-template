@@ -1,10 +1,10 @@
 import { html, css, LitElement } from "lit";
+import React from "react";
 import { customElement, property } from "lit/decorators.js";
 import ReactDOM from "react-dom";
 import { Subject } from "rxjs";
 
-import {SampleComponent} from 'react-components'
-import React from "react";
+import {SampleReactComponent} from '@micro-lc/react';
 
 /**
  * An example element.
@@ -41,7 +41,7 @@ export class SampleWebComponent extends LitElement {
   }
 
   reactRender() {
-    const component = React.createElement(SampleComponent)
+    const component = React.createElement(SampleReactComponent)
     ReactDOM.render(component, this.renderRoot)
   }
 
