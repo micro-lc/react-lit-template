@@ -3,6 +3,8 @@ import React from "react";
 import { customElement, property } from "lit/decorators.js";
 import ReactDOM from "react-dom";
 import { Subject, Subscription } from "rxjs";
+
+// @ts-ignore
 import { SampleReactComponent } from "@micro-lc/react";
 
 /**
