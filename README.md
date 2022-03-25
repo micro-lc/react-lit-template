@@ -1,4 +1,4 @@
-# miro-lc React + Lit template
+# micro-lc React + Lit template
 
 [![Build Status][github-actions-svg]][github-actions]
 [![Coverage Status][coverall-svg]][coverall-io]
