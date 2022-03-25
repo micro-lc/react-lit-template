@@ -2,6 +2,6 @@ import React from 'react'
 
 export const SampleReactComponent = () => {
     return (
-        <div>{'Sample component'}</div>
+        <div>{'Sample React component'}</div>
     )
 }

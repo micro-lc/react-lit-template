@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lit + React</title>
+    <script type="module" src="/src/index.ts"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/7.4.0/rxjs.umd.min.js"
+      integrity="sha512-+44c+4RaNWpQRmhz2dwqH+t6caPi46MTcLaQr96rnvXOOW7SInBN4ivxSIZyqGlLSUOw5UQ+ndUmN417dJPXNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <sample-web-component></sample-web-component>
+    <script>
+      document.querySelector("sample-web-component").eventBus = new rxjs.ReplaySubject()
+    </script>
+  </body>
+</html>
