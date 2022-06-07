@@ -9,6 +9,6 @@
     "lit": "yarn workspace @micro-lc/lit"
   },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^5.1.0"
   }
 }
